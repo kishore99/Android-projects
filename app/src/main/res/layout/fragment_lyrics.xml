@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.kishore_yuva.lyrix.Activities.LyricsFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_title"
+        android:textSize="@dimen/text_size"
+        android:elevation="@dimen/text_ele"
+        android:layout_marginTop="@dimen/lay_top"
+        android:layout_marginStart="@dimen/lay_left"
+        android:gravity="start"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:layout_marginBottom="@dimen/lay_mar_bot"
+        android:shadowRadius="3"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_artist"
+        android:layout_marginBottom="@dimen/la_mar_bot"
+        android:layout_below="@id/tv_title"
+        android:layout_marginStart="@dimen/lay_left"
+        android:textSize="@dimen/tex_siz"
+        android:textColor="@color/white"
+        android:gravity="start"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowColor="@color/white"
+        android:shadowRadius="2"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_hi"
+        android:id="@+id/tv_divider"
+        android:background="@drawable/divider"
+        android:layout_below="@id/tv_artist"/>
+
+    <ImageView
+        android:layout_width="@dimen/img_wd"
+        android:layout_height="@dimen/img_wd"
+        android:id="@+id/artist_image"
+        android:scaleType="fitXY"
+        android:padding="@dimen/padding"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignTop="@id/tv_artist"
+        android:layout_above="@id/tv_divider"
+        android:layout_marginEnd="@dimen/mr"
+        android:layout_marginStart="@dimen/ml"
+        android:contentDescription="@string/artistimage" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/size"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/mt"
+        android:gravity="start"
+        android:fontFamily="sans-serif"
+        android:layout_centerHorizontal="true"
+        android:scrollbars="vertical"
+        android:layout_below="@id/tv_divider"
+        android:textStyle="normal"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowColor="@color/white"
+        android:shadowRadius="2"
+        android:padding="@dimen/mr"
+        android:id="@+id/tv_lyrics" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryFaded"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/lay_marg_bot"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/adUnitId">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

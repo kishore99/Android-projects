@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/lay_mrgn"
+        android:elevation="@dimen/cd_ele"
+        android:id="@+id/card">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout_ht"
+                android:id="@+id/artist_image"
+                android:layout_margin="@dimen/lay_out"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_launcher_round"
+                android:contentDescription="@string/artistimage" />
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="@dimen/layo_left">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_title"
+                        android:textSize="@dimen/txt_sze"
+                        android:text="@string/name"
+                        android:layout_margin="@dimen/two"
+                        android:maxLines="3"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_artist"
+                        android:text="@string/artist"
+                        android:layout_margin="@dimen/too"
+                        android:textSize="@dimen/fourteen"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/star"
+                    android:layout_width="@dimen/lw"
+                    android:layout_height="@dimen/lh"
+                    android:layout_marginEnd="@dimen/lay_me"
+                    android:layout_marginStart="@dimen/lay_ms"
+                    android:layout_marginTop="@dimen/lay_mt"
+                    android:src="@mipmap/ic_launcher_round"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toEndOf="@+id/tv_title"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="NotSibling"
+                    android:contentDescription="@string/favourite" />
+            </android.support.constraint.ConstraintLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</GridLayout>

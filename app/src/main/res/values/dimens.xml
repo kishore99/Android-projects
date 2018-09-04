@@ -1,0 +1,65 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="widget_title_size">18sp</dimen>
+    <dimen name="tool_height">256dp</dimen>
+    <dimen name="title_margin">2dp</dimen>
+    <dimen name="padding">5dp</dimen>
+    <dimen name="tool_ele">4dp</dimen>
+    <dimen name="tab_ele">2dp</dimen>
+    <dimen name="lay_marg">5dp</dimen>
+    <dimen name="toolbar_ele">4dp</dimen>
+    <dimen name="text_size">30sp</dimen>
+    <dimen name="text_ele">6dp</dimen>
+    <dimen name="lay_top">20dp</dimen>
+    <dimen name="lay_marg_bot">10dp</dimen>
+    <dimen name="lay_mar_bot">10dp</dimen>
+    <dimen name="la_mar_bot">96dp</dimen>
+    <dimen name="lay_left">40dp</dimen>
+    <dimen name="tex_siz">26sp</dimen>
+    <dimen name="layout_hi">3dp</dimen>
+    <dimen name="img_wd">108dp</dimen>
+    <dimen name="mr">35dp</dimen>
+    <dimen name="ml">10dp</dimen>
+    <dimen name="size">18sp</dimen>
+    <dimen name="mt">10dp</dimen>
+    <dimen name="text_lay_rig">10dp</dimen>
+    <dimen name="text_lay_left">20dp</dimen>
+    <dimen name="layout_left">10dp</dimen>
+    <dimen name="lay_right">20dp</dimen>
+    <dimen name="card_ele">10dp</dimen>
+    <dimen name="card_left">2dp</dimen>
+    <dimen name="layou_left">2dp</dimen>
+    <dimen name="layo_top">15dp</dimen>
+    <dimen name="tst_sz">18sp</dimen>
+    <dimen name="mrs">10dp</dimen>
+    <dimen name="lay_mrgn">8dp</dimen>
+    <dimen name="cd_ele">10dp</dimen>
+    <dimen name="layout_ht">200dp</dimen>
+    <dimen name="lay_out">5dp</dimen>
+    <dimen name="layo_left">5dp</dimen>
+    <dimen name="txt_sze">14sp</dimen>
+    <dimen name="two">2dp</dimen>
+    <dimen name="too">2dp</dimen>
+    <dimen name="fourteen">14sp</dimen>
+    <dimen name="lw">36dp</dimen>
+    <dimen name="lh">36dp</dimen>
+    <dimen name="lay_me">5dp</dimen>
+    <dimen name="lay_ms">5dp</dimen>
+    <dimen name="lay_mt">8dp</dimen>
+    <dimen name="twenty">20sp</dimen>
+    <dimen name="eleva">6dp</dimen>
+    <dimen name="lay_mleft">20dp</dimen>
+    <dimen name="zero">0dp</dimen>
+    <dimen name="lef">20dp</dimen>
+    <dimen name="sie">14sp</dimen>
+    <dimen name="lay_bottm">2dp</dimen>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:CardView="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/title_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    CardView:cardElevation="@dimen/card_ele"
+    android:layout_marginStart="@dimen/card_left"
+    android:layout_marginEnd="@dimen/layou_left"
+    android:layout_marginTop="@dimen/layo_top">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lyrics"
+        android:textSize="@dimen/tst_sz"
+        android:textColor="@color/black"
+        android:gravity="start"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:padding="@dimen/mrs"
+        android:id="@+id/tv_lyrics" />
+</android.support.v7.widget.CardView>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/list_item"
+    android:background="@color/blac">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:id="@+id/tv_title"
+        android:textSize="@dimen/twenty"
+        android:elevation="@dimen/eleva"
+        android:layout_marginStart="@dimen/lay_mleft"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/artist"
+        android:id="@+id/tv_artist"
+        android:layout_marginTop="@dimen/zero"
+        android:layout_marginStart="@dimen/lef"
+        android:textSize="@dimen/sie"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowColor="#000000"
+        android:shadowRadius="2"
+        android:layout_marginBottom="@dimen/lay_bottm"
+        />
+</LinearLayout>
