@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/acer/Desktop/phase_2/MyReader/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/home/acer/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/95f0ebc0c44c4548999ace78c24a2794/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/home/acer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/228ce17ba0e017d1a8cd8119f691ef8a/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}
